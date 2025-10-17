@@ -246,7 +246,7 @@ def test_main():
 
 # Initialize git repository
 echo -e "Initializing ${BGREEN}git${Color_Off} ..."
-git init
+git init --initial-branch=main
 
 # Create GitHub repository
 echo -e "Creating GitHub repository..."
